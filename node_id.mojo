@@ -1,11 +1,16 @@
 from random import random_ui64, seed
 
 
-struct NodeID:
+struct NodeID(ImplicitlyCopyable):
   var id: UInt256
+
+  comptime __copyinit__is_trivial = True
 
   fn __init__(out self):
     self.id = NodeID.generate_id()
+
+  fn __copyinit__(out self, existing: Self):
+    self.id = existing.id
 
   @staticmethod
   fn generate_id() -> UInt256:
