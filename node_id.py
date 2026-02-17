@@ -6,6 +6,10 @@ class NodeID:
         m.update(seed.encode())
         return m.digest()
 
+    @staticmethod
+    def distance(id1, id2):
+        return id1^id2
+
     def __init__(self, seed):
         self.id = self.generate_id(seed)
 
