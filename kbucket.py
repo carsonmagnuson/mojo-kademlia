@@ -1,0 +1,6 @@
+class KBucket:
+    def __init__(self):
+        self.nodes = []
+
+    def add(node):
+        self.nodes.append(node)
