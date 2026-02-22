@@ -1,5 +1,9 @@
+import kbucket
+
 class RoutingTable:
 
     def __init__(self):
-        self.buckets = [[]]*256
+        self.buckets = [kbucket]*256
+
+
 
