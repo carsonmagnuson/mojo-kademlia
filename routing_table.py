@@ -8,7 +8,8 @@ class RoutingTable:
 
     def add(self, to_add):
         distance = node_id.NodeID.distance(self.node.id, to_add.id)
-        return
+        self.buckets[str(distance).find("0")].add(to_add)
+
 
 
 
