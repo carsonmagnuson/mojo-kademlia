@@ -5,6 +5,8 @@ ngl, working in mojo is tough. So I may try to implement this in python first to
 
 I honestly have no idea what I'm doing atm. I need to sit down and deeply focus on this to make it work.
 
+Okay I have a plan now. Tomorrow I'm going to partition the kademlia idea from the node point of view into the different files and fns that I'll need. THEN I'll build out the skeleton of the project in python, AND THEN i'll see about interoperability with mojo.
+
 ## Installation
 
 ```bash
