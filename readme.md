@@ -10,6 +10,7 @@ Okay I have a plan now. Tomorrow I'm going to partition the kademlia idea from t
 The point of view of the node is actually super important...
 I think I will map it out in obsidian canvas.
 
+I've begun typing out the logic in an md document...
 ## Installation
 
 ```bash
