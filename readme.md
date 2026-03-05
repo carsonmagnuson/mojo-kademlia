@@ -11,6 +11,8 @@ The point of view of the node is actually super important...
 I think I will map it out in obsidian canvas.
 
 I've begun typing out the logic in an md document...may include it here when done.
+
+One day I will stop simply making readme edits.
 ## Installation
 
 ```bash
