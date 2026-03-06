@@ -13,6 +13,9 @@ I think I will map it out in obsidian canvas.
 I've begun typing out the logic in an md document...may include it here when done.
 
 One day I will stop simply making readme edits.
+ 
+
+What I think I should do is create a list of methods to implement in order to get a node up and running...
 ## Installation
 
 ```bash
