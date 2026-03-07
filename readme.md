@@ -16,6 +16,8 @@ One day I will stop simply making readme edits.
  
 
 What I think I should do is create a list of methods to implement in order to get a node up and running...
+
+Okay so at this point I'm literally doing nothing except leetcode.
 ## Installation
 
 ```bash
