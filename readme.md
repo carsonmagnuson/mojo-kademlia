@@ -13,6 +13,9 @@ I think I will map it out in obsidian canvas.
 I've begun typing out the logic in an md document...may include it here when done.
 
 One day I will stop simply making readme edits.
+
+Sasha made me play Slay the Spire 2. He gifted me the game, and suddenly 10 hours had passed. Let the record show that he kept me from working on this project for ten hours. I rest my case.
+
  
 
 What I think I should do is create a list of methods to implement in order to get a node up and running...
