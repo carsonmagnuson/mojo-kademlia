@@ -21,6 +21,8 @@ Sasha made me play Slay the Spire 2. He gifted me the game, and suddenly 10 hour
 What I think I should do is create a list of methods to implement in order to get a node up and running...
 
 Okay so at this point I'm literally doing nothing except leetcode.
+
+Sasha made me play again today, and then couldn't defeat a boss for 2 hours. So...
 ## Installation
 
 ```bash
