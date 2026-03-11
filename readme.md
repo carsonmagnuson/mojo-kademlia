@@ -23,6 +23,11 @@ What I think I should do is create a list of methods to implement in order to ge
 Okay so at this point I'm literally doing nothing except leetcode.
 
 Sasha made me play again today, and then couldn't defeat a boss for 2 hours. So...
+
+We played again. After some technical difficulties, I made a deck so busted I carried us through four separate engagements where he perished. Including the final battle. Please refer below for proof. Note the amount of energy, and two key relics, one of which would duplicate this ability.
+
+![the proof](proof.png)
+
 ## Installation
 
 ```bash
