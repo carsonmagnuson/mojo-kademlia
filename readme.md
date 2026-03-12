@@ -28,6 +28,8 @@ We played again. After some technical difficulties, I made a deck so busted I ca
 
 ![the proof](proof.png)
 
+Okay so we applied for another job. Which means I do actually have to finish this.
+
 ## Installation
 
 ```bash
