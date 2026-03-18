@@ -2,6 +2,8 @@
 
 This is a mojo implementation of [Kademlia](https://en.wikipedia.org/wiki/Kademlia). 
 
+Here should be all the functions I want to implement.
+
 ## `Node`
 This class represents all peers in the network, including the host computer.
 - `create_id(seed)` - to generate a permanent 256-bit node identifier for the host-node upon bootstrap
