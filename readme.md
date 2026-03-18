@@ -1,34 +1,6 @@
 # Mojo Kademlia
 
 This is a mojo implementation of [Kademlia](https://en.wikipedia.org/wiki/Kademlia). 
-ngl, working in mojo is tough. So I may try to implement this in python first to get a better understanding.
-
-I honestly have no idea what I'm doing atm. I need to sit down and deeply focus on this to make it work.
-
-Okay I have a plan now. Tomorrow I'm going to partition the kademlia idea from the node point of view into the different files and fns that I'll need. THEN I'll build out the skeleton of the project in python, AND THEN i'll see about interoperability with mojo.
-
-The point of view of the node is actually super important...
-I think I will map it out in obsidian canvas.
-
-I've begun typing out the logic in an md document...may include it here when done.
-
-One day I will stop simply making readme edits.
-
-Sasha made me play Slay the Spire 2. He gifted me the game, and suddenly 10 hours had passed. Let the record show that he kept me from working on this project for ten hours. I rest my case.
-
- 
-
-What I think I should do is create a list of methods to implement in order to get a node up and running...
-
-Okay so at this point I'm literally doing nothing except leetcode.
-
-Sasha made me play again today, and then couldn't defeat a boss for 2 hours. So...
-
-We played again. After some technical difficulties, I made a deck so busted I carried us through four separate engagements where he perished. Including the final battle. Please refer below for proof. Note the amount of energy, and two key relics, one of which would duplicate this ability.
-
-![the proof](proof.png)
-
-Here's what I have so far.
 
 ## `Node`
 This class represents all peers in the network, including the host computer.
