@@ -39,7 +39,7 @@ Tries to retrieve a specific value associated with a key. If the node does not h
   * **Signature:** `find_value(key: String) -> Value | Array<Node>`
   * **Parameters:**
       * `key` *(String)*: The key for the requested data.
-  * **Returns:** Returns the deserialized `Value` if present. If not, returns an `Array<Node>` representing the next logical routing hops.
+  * **Returns:** Returns `Value` if present. If not, returns an `Array<Node>` representing the next logical routing hops.
 
 ### `bootstrap`
 
