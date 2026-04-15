@@ -1,5 +1,6 @@
 import pytest
-from kadempy.core import distance, generate_id
+from ipaddress import ip_address
+from kadempy.core import distance, generate_id, Node
 
 @pytest.mark.parametrize(
     "id1_int, id2_int, expected_distance",
@@ -18,10 +19,21 @@ def test_distance(id1_int, id2_int, expected_distance):
     assert distance(id1_int, id2_int) == expected_distance
 
 def test_generate_id():
-    """Test SHA-256 NodeID generation"""
+    """Test SHA-256 Node ID generation"""
     test_id = generate_id()
 
     assert type(test_id) == bytes
     assert len(test_id) == (256//8)
     assert 0 <= int.from_bytes(test_id, byteorder='big') < 2**256
+
+def test_node_class():
+    """Test Node object creation"""
+    addr = ip_address('192.168.0.1')
+    test_node = Node(addr, 8080)
+
+    assert test_node
+    assert test_node.address == addr
+
+
+
 
