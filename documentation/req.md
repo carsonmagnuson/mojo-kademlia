@@ -2,7 +2,7 @@
 
 ## 1\. Functions (RPCs)
 
-Functions that represent the network-level Remote Procedure Calls for node communication and data propagation.
+Functions that represent Remote Procedure Calls for node communication and data propagation.
 
 ### `ping`
 
@@ -16,7 +16,7 @@ Verifies the operational status and reachability of a remote node.
 
 ### `store`
 
-Store key-value pair in a designated node. 
+Stores key-value pair in a designated node. 
   * **Signature:** `store(key: String, value: Any) -> Boolean`
   * **Parameters:**
       * `key` *(String)*: The plaintext identifier for the data payload.
