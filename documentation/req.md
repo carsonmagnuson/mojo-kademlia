@@ -71,9 +71,9 @@ A bounded distance category utilized by the `Router`. Aggregates a specific maxi
 
 ### `Node`
 
-The representation of a network participant that holds necessary metadata for P2P connection.
+The representation storing the metadata of a network participant.
 
   * **Attributes:**
-      * `id` *(Bytes)*: The immutable identifier of the peer.
+      * `node_id` *(Bytes)*: The immutable identifier of the peer.
       * `address` *(IPAddress)*: The network routing address.
       * `port` *(Integer)*: The active communication port.
