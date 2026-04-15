@@ -74,14 +74,6 @@ A bounded distance category utilized by the `Router`. Aggregates a specific maxi
 The representation of a network participant that holds necessary metadata for P2P connection.
 
   * **Attributes:**
-      * `id` *(NodeID)*: The immutable identifier of the peer.
+      * `id` *(Bytes)*: The immutable identifier of the peer.
       * `address` *(IPAddress)*: The network routing address.
       * `port` *(Integer)*: The active communication port.
-
-### `NodeID`
-
-The 256-bit identifier representing a specific `Node` in the network search space.
-
-  * **Methods:**
-      * `distance(target: NodeID) -> BigInt`: Calculates the absolute logical distance between this ID and a target ID using a bitwise XOR operation. 
-
