@@ -33,6 +33,10 @@ def test_node_class():
 
     assert test_node
     assert test_node.address == addr
+    assert 0 <= test_node.port <= 65535
+    assert type(test_node.node_id) == bytes
+    assert len(test_node.node_id) == (256//8)
+    assert 0 <= int.from_bytes(test_node.node_id, byteorder='big') < 2**256
 
 
 
