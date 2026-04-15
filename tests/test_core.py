@@ -1,5 +1,5 @@
 import pytest
-from kadempy.core import distance
+from kadempy.core import distance, generate_id
 
 @pytest.mark.parametrize(
     "id1_int, id2_int, expected_distance",
@@ -12,7 +12,16 @@ from kadempy.core import distance
     ]
 )
 
-def test_node_id_xor_distance(id1_int, id2_int, expected_distance):
+def test_distance(id1_int, id2_int, expected_distance):
     """Test XOR distance metric."""
 
     assert distance(id1_int, id2_int) == expected_distance
+
+def test_generate_id():
+    """Test SHA-256 NodeID generation"""
+    test_id = generate_id()
+
+    assert type(test_id) == bytes
+    assert len(test_id) == (256//8)
+    assert 0 <= int.from_bytes(test_id, byteorder='big') < 2**256
+
