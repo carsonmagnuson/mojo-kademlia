@@ -1,44 +1,14 @@
 # Mojo Kademlia
 
-This is a mojo implementation of [Kademlia](https://en.wikipedia.org/wiki/Kademlia). 
+This is to be Mojo implementation of [Kademlia](https://en.wikipedia.org/wiki/Kademlia). 
 
-Here should be all the functions I want to implement.
+I have a small write-up of my thought process on my website [here](https://carsonmagnuson.com/Obsidian/Notes/On+Implementing+Kademlia). You can find the documentation I'm working on under [documentation](/documentation/).
 
-## `Node`
-This class represents all peers in the network, including the host computer.
-- `create_id(seed)` - to generate a permanent 256-bit node identifier for the host-node upon bootstrap
-- `distance_to(other_node)` - to compute XOR distance metric between two nodes
-## `KBucket`
-This class represents the buckets in which id's are stored, implementing lazy splitting when we exceed 20 nodes.
-- `add_contact(node)` - insert a node in the front (should be in order of most recently seen)
-- `remove_contact(node)` - remove an inactive node
-- `is_full()` - check if the kbucket has reached capacity
-- 
-- 
+>Note: This project is in development, and may appear unfinished.
 
-## RoutingTable
+The motivation here is curiosity. I would like to explore both Mojo and Kademlia, however attempting to explore both simultaneously may prove somewhat overwhelming. 
 
-# Storage
-
-## KademliaProtocol
-
-## IterativeLookup
-
-## KademliaNode
-
-## Installation
-
-```bash
-...
-```
-
-## Usage
-
-todo...
-
-## Acknowledgments
+Instead, I think I'll build it in Python first, and interoperate with Mojo piece by piece, keeping the top level Python until I'm more familiar with the idiosyncrasies of Mojo and can port over completely.
 
 
-## License
 
-[MIT License](LICENSE)
